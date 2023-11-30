@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PayPal Payment Integration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="bg-primary text-white text-center py-2">
+        <h1>PayPal</h1>
+    </header>
+
+    <main class="container mt-4">
+        <div class="mb-3">
+            <label for="amount" class="form-label">Nhập tiền muốn trả:</label>
+            <input type="text" id="amount" class="form-control" placeholder="Nhập tiền đô">
+        </div>
+
+        <div id="paypal-button-container" class="text-center"></div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script
+        src="https://www.paypal.com/sdk/js?client-id=AZE_r6HqRZiwvCXWEazuLxyhcgnIZkod2wdU03pjsqBMexNCAg-VxmNS4QiHQec2LE3SuBOtcnOwMaFm"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
